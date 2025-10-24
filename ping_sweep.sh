@@ -4,7 +4,7 @@
 #Date created: 24/10/2025
 #Decription: A script function that scans a small range of ip addresses in a subnet to check which ones are alive.
 
-ping_sweep()
+ping_sweep() {
   subnet="172.17.0"
   for i in {1..10}; do
     ip="$subnet.$i"
@@ -12,3 +12,4 @@ ping_sweep()
     done
     wait
 }
+ping_sweep
