@@ -1,5 +1,5 @@
 #!/bin/bash
-#Script Nam: ping_sweep.sh
+#Script Name: ping_sweep.sh
 #Author: Alex Kasujja
 #Date created: 24/10/2025
 #Decription: A script function that scans a small range of ip addresses in a subnet to check which ones are alive.
