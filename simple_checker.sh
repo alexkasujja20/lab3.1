@@ -21,3 +21,5 @@ ping_sweep() {
   done
   wait
 }
+up 17.17.0.1
+up 8.8.8.8
